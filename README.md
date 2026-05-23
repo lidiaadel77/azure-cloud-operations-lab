@@ -1,23 +1,26 @@
-# azure-cloud-operations-lab
-A hands-on Azure cloud operations project covering VM deployment, networking, security rules, monitoring, alerting, and documentation.
-
 # Azure Cloud Operations Lab
 
 ## Overview
 
 This project demonstrates a basic cloud operations environment on Microsoft Azure.
 
-It includes virtual machine deployment, networking, security rules, monitoring, alerting, and cloud documentation.
+It includes virtual machine deployment, networking, security rules, SSH access, NGINX web server setup, monitoring, alerting, and cost-control documentation.
 
-## Project Goals
+The goal of this project is to show practical cloud operations skills that are useful for Cloud Engineer, Cloud Support Engineer, and Infrastructure Support roles.
 
-- Deploy a Linux virtual machine on Azure.
-- Configure virtual network and subnet settings.
-- Use a Network Security Group to control inbound traffic.
-- Install and test a simple NGINX web server.
-- Enable Azure Monitor and create alert rules.
-- Document setup steps, screenshots, and security decisions.
-- Practice cost control by deleting unused resources.
+## Project Architecture
+
+The lab includes:
+
+- Azure Resource Group
+- Linux Virtual Machine
+- Virtual Network
+- Subnet
+- Network Security Group
+- Public IP Address
+- SSH Access
+- NGINX Web Server
+- Azure Monitor Alert Rule
 
 ## Tools Used
 
@@ -26,20 +29,42 @@ It includes virtual machine deployment, networking, security rules, monitoring, 
 - Azure Virtual Network
 - Network Security Group
 - Azure Monitor
-- Log Analytics
+- Linux Ubuntu
 - NGINX
+- SSH
 - GitHub
 
 ## Skills Demonstrated
 
-- Cloud operations
 - Azure VM deployment
-- Basic cloud networking
-- Infrastructure security
+- Cloud networking basics
+- Network security group configuration
+- Linux server setup
+- SSH key-based access
+- Web server deployment
 - Monitoring and alerting
-- Technical documentation
 - Cost awareness
+- Cloud documentation
 
-## Project Status
+## Repository Structure
 
-In progress.
+```text
+docs/
+  setup-steps.md
+  networking-notes.md
+  security-notes.md
+  monitoring-alerts.md
+  cost-control.md
+
+screenshots/
+  resource-group.png
+  virtual-machine-overview.png
+  vm-networking.png
+  nginx-running.png
+  cpu-alert-rule.png
+
+diagrams/
+  architecture.png
+
+terraform/
+  README.md
