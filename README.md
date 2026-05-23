@@ -48,6 +48,11 @@ The lab includes:
 
 ## Repository Structure
 
+## Architecture Diagram
+
+![Architecture Diagram](diagrams/architecture.png)
+
+
 ```text
 docs/
   setup-steps.md
@@ -67,4 +72,5 @@ diagrams/
   architecture.png
 
 terraform/
+
   README.md
